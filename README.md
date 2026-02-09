@@ -9,7 +9,7 @@ A modern, elegant website for Rawaiee Beauty Salon featuring a comprehensive boo
 - **Fully Responsive**: Optimized for all devices (desktop, tablet, mobile)
 - **Interactive Navigation**: Smooth scrolling and mobile-friendly hamburger menu
 - **Service Showcase**: Detailed presentation of all beauty services
-- **Gallery Section**: Visual portfolio of salon work
+- **Gallery Section**: Visual portfolio of salon work with individual image positioning
 - **Client Testimonials**: Social proof with customer reviews
 - **Contact & Booking**: Complete appointment booking system
 
@@ -30,7 +30,7 @@ A modern, elegant website for Rawaiee Beauty Salon featuring a comprehensive boo
 
 ### 1. Hero Section
 - Eye-catching headline and call-to-action
-- Gradient background with overlay effect
+- Hero image with overlay effect
 - Dual action buttons for navigation
 
 ### 2. Services Section
@@ -51,8 +51,9 @@ A modern, elegant website for Rawaiee Beauty Salon featuring a comprehensive boo
 
 ### 4. Gallery Section
 - Grid layout for portfolio images
-- Hover effects and lightbox ready
-- Placeholder for beauty treatment photos
+- Individual image positioning with object-position
+- Hover effects with category overlay
+- Images: img_main.jpg, img_3.jpg, img_5.jpg, img_6.jpg, img_7.png, img_8.png
 
 ### 5. Testimonials Section
 - Customer reviews with ratings
@@ -64,12 +65,29 @@ A modern, elegant website for Rawaiee Beauty Salon featuring a comprehensive boo
 - Interactive booking form with validation
 - Service selection, date/time picker
 - Form submission with feedback
+- Social media links
 
 ### 7. Footer
 - Company information
 - Quick navigation links
 - Newsletter subscription
 - Social media links
+
+## Gallery Features
+
+### Individual Image Positioning
+- **#img-1**: `object-position: center 35%` (img_main.jpg)
+- **#img-2**: `object-position: center 30%` (img_3.jpg)
+- **#img-3**: `object-position: center 15%` (img_5.jpg)
+- **#img-4**: `object-position: center 5%` (img_6.jpg)
+- **#img-5**: `object-position: center 10%` (img_7.png)
+- **#img-6**: `object-position: center 15%` (img_8.png)
+
+### Hover Effects
+- Card lift animation on hover
+- Image scale effect
+- Golden gradient overlay with category labels
+- Smooth transitions
 
 ## Booking System Features
 
@@ -96,7 +114,18 @@ Beauty_1/
 ├── index.html          # Main HTML structure
 ├── styles.css          # Complete styling
 ├── script.js           # JavaScript functionality
-└── README.md           # Documentation
+├── README.md           # Documentation
+└── Images/             # All salon images
+    ├── img_main.jpg
+    ├── img_2.jpg
+    ├── img_3.jpg
+    ├── img_4.jpg
+    ├── img_5.jpg
+    ├── img_6.jpg
+    ├── img_7.png
+    ├── img_8.png
+    ├── img_9.jpg
+    └── logo_beauty.png
 ```
 
 ### CSS Architecture
@@ -141,25 +170,7 @@ Beauty_1/
 3. Modify content directly in HTML
 4. Add new services by duplicating service cards
 5. Update contact information in footer
-
-## Future Enhancements
-
-### Planned Features
-- [ ] Backend integration for real booking system
-- [ ] Payment processing integration
-- [ ] Admin dashboard for appointment management
-- [ ] SMS/email notifications
-- [ ] Online gift card system
-- [ ] Loyalty program integration
-- [ ] Multi-language support
-
-### Technical Improvements
-- [ ] Image optimization and lazy loading
-- [ ] Service worker for offline functionality
-- [ ] Progressive Web App (PWA) features
-- [ ] SEO optimization with structured data
-- [ ] Analytics integration
-- [ ] A/B testing framework
+6. Adjust gallery image positions via CSS IDs
 
 ## Getting Started
 
