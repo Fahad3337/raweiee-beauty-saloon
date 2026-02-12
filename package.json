@@ -1,0 +1,23 @@
+{
+  "name": "rawaiee-beauty-saloon",
+  "version": "1.0.0",
+  "description": "Rawaiee Beauty Salon Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve",
+    "build": "echo 'No build process needed for static site'",
+    "start": "serve"
+  },
+  "keywords": [
+    "beauty",
+    "salon",
+    "website"
+  ],
+  "author": "Rawaiee Beauty Salon",
+  "license": "MIT",
+  "author": "Rawaiee Beauty Salon",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
