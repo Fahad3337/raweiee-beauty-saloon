@@ -139,8 +139,7 @@ p {
     max-width: 250px;
     object-fit: contain;
     transition: transform 0.3s ease;
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
-    /* Added subtle shadow for depth */
+    mix-blend-mode: multiply;
 }
 
 .logo-img:hover {
